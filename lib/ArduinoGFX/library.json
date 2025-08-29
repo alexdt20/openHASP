@@ -1,0 +1,13 @@
+{
+  "name": "ArduinoGFX",
+  "version": "0.0.0",
+  "build": {
+    "srcDir": "src",
+    "srcFilter": [
+      "+<*.cpp>",
+      "+<*.h>",
+      "+<Arduino_AXS15231B.cpp>",
+      "+<Arduino_AXS15231B.h>"
+    ]
+  }
+}
