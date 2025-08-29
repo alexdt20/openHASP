@@ -9,6 +9,10 @@
 #include "Arduino_RGB_Display_mod.h"
 #include "Arduino_PCA9535SWSPI.h"
 
+#if defined(AXS15231B_DRIVER)
+#include <Arduino_AXS15231B.h>
+#endif
+
 namespace dev {
 
 void tftPinInfo(const __FlashStringHelper* pinfunction, int8_t pin)
